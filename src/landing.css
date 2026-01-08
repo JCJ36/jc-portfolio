@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+#landing > p {
+    white-space: pre;
+    font-family: monospace;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 13px;
+}

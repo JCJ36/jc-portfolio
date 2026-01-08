@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+p, h1, h2, h3, h4{
+    font-family: monospace;	
+}
+
+p {
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    
+}
+
+h1 {
+    font-size: var(--text-3xl);
+    line-height: var(--text-3xl--line-height);
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: var(--text-xl);
+    line-height: var(--text-xl--line-height);
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+@layer components{
+    .pill-border{
+        @apply bg-white font-semibold py-1 px-2 border border-gray-400 rounded-full shadow inline-block;
+    }
+}
